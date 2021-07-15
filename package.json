@@ -1,0 +1,27 @@
+{
+  "name": "simplepeermeeting",
+  "version": "1.0.0",
+  "description": "This code is a basic conference flow so that beginners can easly understand the logic. Please do not use this code directly in any commercial project this is only for tutorial pupose.",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "socket.io": "^4.1.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nithinpgit/simplepeermeeting.git"
+  },
+  "keywords": [
+    "webrtc"
+  ],
+  "author": "nithinprasad",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nithinpgit/simplepeermeeting/issues"
+  },
+  "homepage": "https://github.com/nithinpgit/simplepeermeeting#readme"
+}
