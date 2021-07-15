@@ -8,10 +8,16 @@ This code is a basic conference flow so that beginners can easly understand the 
 
 ## How to setup in your local machien or server
 
-```git clone ```
+* After installing nodejs and npm execute the following commands one by one 
+
+```git clone https://github.com/nithinpgit/simplepeermeeting.git```
+
+```cd simplepeermeeting```
 
 ```npm install```
 
 ```node index.js```
+
+* Then open https://localhost in your browser
 
 * You can replace the ssl file in cert directly if deploying in public domain
