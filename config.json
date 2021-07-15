@@ -1,0 +1,11 @@
+{
+    "port":443,
+    "cert":"cert/live/certificate.crt",
+    "key":"cert/live/private.key",
+    "ca":"cert/live/ca_bundle.crt",
+    "apiBaseUrl":"http://52.32.226.187:8080",
+    "serviceId":"608fbacee999a6551f57c341",
+    "serviceKey":"fnsYqzfkn7PUEPdDD3zoqFGCWXlILPug7doLtAJ9I20861V+cVeuI7Ohy8nXBb0FOtP1xtUEOnqOPHuQGouu1In5ODB6MVvZkbQra6bafsUm3XM+t82v6UCZ97W+PoBcSQw06vk3/8v5A7A/ELQd+h8rZxS1QPjo47lSe0HDnPE=",
+    "mediaServerUrl":"https://mediaserver.canstringai.com:3000/",
+    "upload_path":"uploads"
+}

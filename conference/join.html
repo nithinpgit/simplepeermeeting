@@ -1,0 +1,30 @@
+<!--
+/*
+ * author @nithin prasad , this application not using any third party code or service
+ * website https://nithinprasad.com
+ * This is a simple webrtc peer to peer video conferencing app. This application is only for understanding 
+ * Basic flow of webrtc based conference call.
+ * Android and IOS developer can reuse the signaling server and create native code by following the logic in javascript file
+ */
+-->
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+   <head>
+      <meta charset="utf-8">
+      <title>Video Conferencing</title>
+      <link rel="stylesheet" href="css/style.css">
+      <script>
+          signalingUrl = '/'
+      </script>
+   </head>
+   <body>
+      <div id = "layout">
+        <div>
+            <video id= "localVideo" autoplay></video>
+        </div>
+      </div>
+   </body>
+</html>
+<script src="/socket.io/socket.io.js" ></script>
+<script src="js/layout.js" ></script>
+<script src="js/script.js" ></script>
